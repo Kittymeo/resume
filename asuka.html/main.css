@@ -1,0 +1,905 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:100');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Cinzel|League+Script|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Dosis:800');
+@import url('https://fonts.googleapis.com/css?family=Nunito:600');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Lovers+Quarrel|Ruthie');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
+@import url('https://fonts.googleapis.com/css?family=Almendra+Display');
+@import url('https://fonts.googleapis.com/css?family=Londrina+Outline');
+@import url('https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Megrim');
+
+
+
+/*font-family: 
+
+'Raleway', sans-serif;
+'League Script', cursive;
+'Amatic SC', cursive;
+'Cinzel', serif;
+'Poiret One', cursive;
+'Dosis', sans-serif;
+'Nunito', sans-serif;
+'Josefin Sans', sans-serif;
+'Clicker Script', cursive;
+'Ruthie', cursive;
+'Lovers Quarrel', cursive;
+'Fredericka the Great', cursive;
+'Raleway Dots', cursive;
+'Almendra Display', cursive;
+'Londrina Outline', cursive;
+'Megrim', cursive;
+'Dawning of a New Day', cursive;
+
+*/
+
+body {
+	margin:0;
+
+}
+
+header {	
+	
+	text-align: center;
+	background-color: white;
+	padding: 10px 0 0 0;
+}
+
+
+
+nav table {
+	background-color: ;
+	margin: 0;
+	display: inline;
+	padding: 4px;
+
+}
+
+nav table tr td {
+	text-align: center;
+	
+	opacity: 0.95;
+	padding: 3px 30px;
+	font-family: 'Poiret One', cursive;
+	font-weight: 100;
+
+	font-size: 12px;
+	list-style-type: none;
+	margin: 1px 0;
+	letter-spacing: 2px;
+
+}
+
+.navigation {
+	color: #adadad;
+	text-decoration: none;
+	transition: all 0.5s ease-in-out;
+	
+}
+
+.navigation:hover {
+	color: #fc91a7;
+    font-size: 130%;
+}
+
+.nav-image-container{
+	text-align: center;
+}
+
+.nav-image{
+	width: 250px;
+}
+
+.nav-title{
+	font-family: 'Clicker Script', cursive;
+	font-size: 40px;
+	padding: 0 30px 10px 0;
+	margin: 0;
+
+
+}
+
+
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*inner page 开始*/
+.inner-body{
+	animation:bounceInDown 1s;
+}
+
+
+
+.inner-main-block{
+	
+	/*border: 1px solid black;*/
+	width: 400px;
+	margin: auto;
+	margin-top: 100px;
+
+
+}
+
+
+
+
+.inner-block-title{
+	width: 200px;
+	height: 80px;
+	/*border: 1px solid black;*/
+
+	position: relative;
+
+	margin: auto;
+	padding: 20px;
+
+	animation-name: rubberBand;
+	animation-duration: 1s;
+	animation-delay: 1s;
+
+
+		
+	transition: all 0.5s ease-in;
+
+	font-family: 'Poiret One', cursive;
+	font-weight: 400;
+	font-size: 70px;
+
+	background: -webkit-linear-gradient(#8ce0fb,#fe64e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+.inner-block-intro{
+	font-family: 'Poiret One', cursive;
+	font-size: 17px;
+	
+	letter-spacing: 1.5px;
+	text-align: center;
+	padding: 0 0 10px 0;
+
+
+	background: -webkit-linear-gradient(#b7aff2,#fe64e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.inner-block-click-a{
+	text-align: center;
+	text-decoration: none;
+	margin: 10px;
+}
+
+
+.inner-block-click{
+
+
+	border-width: 1.4px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #c1a4f0;
+
+	font-family: 'Poiret One', cursive;
+	font-weight: 400; 
+	font-size: 16px;
+	color: #c1a4f0;
+
+
+  	margin: auto;
+    padding: 7px 15px;
+	text-align: center;
+    display: inline-block;
+
+   
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 0.5px;
+
+    animation-name: swing;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+
+  
+}
+
+.inner-block-click:hover{
+	font-size: 18px;
+}
+
+.inner-hr{
+	display: block;
+    height: 1px;
+    width: 400px;
+
+    border: 0;
+   
+    margin: 1em 0;
+    padding: 0; 
+
+    background: radial-gradient(#fe64e3,#b7aff2,white,white); 
+}
+
+.inner-block1{
+	width: 100px;
+	height: 100px;
+
+	position: relative;
+
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 60px;
+	border-radius: 10%;
+
+
+	animation-name: rotateIn;	
+	animation-duration: 2s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+
+	background: linear-gradient(#c1a4f0,#e1a4f0); 
+
+	transition-property: border-radius;
+	transition-duration: .2s, 1s;
+	transition-timing-function: linear;
+
+}
+
+.inner-block1:hover {
+	border-radius: 20%;
+	background: linear-gradient(#e1a4f0,#c1a4f0); 
+}
+
+/*keyframes*//*keyframes*//*keyframes*//*keyframes*/
+/*keyframes*//*keyframes*//*keyframes*//*keyframes*/
+/*keyframes*//*keyframes*//*keyframes*//*keyframes*/
+/*keyframes*//*keyframes*//*keyframes*//*keyframes*/
+/*keyframes*//*keyframes*//*keyframes*//*keyframes*/
+
+@keyframes bounceInLeft {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    transform: none;
+
+  }
+}
+
+@keyframes bounceInDown {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, 25px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, 5px, 0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+@keyframes bounceInUp {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  from {
+    opacity: 0;
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+@keyframes swing {
+  20% {
+    transform: rotate3d(0, 0, 1, 1deg);
+  }
+
+  40% {
+    transform: rotate3d(0, 0, 1, -1deg);
+  }
+
+  60% {
+    transform: rotate3d(0, 0, 1, 1deg);
+  }
+
+  80% {
+    transform: rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes rotateIn {
+  from {
+    transform-origin: center;
+    transform: rotate3d(12, 14, 10, -360deg);
+    
+  }
+
+  to {
+    transform-origin: center;
+    transform: none;
+
+  }
+}
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+@keyframes flip {
+  from {
+    transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    animation-timing-function: ease-out;
+  }
+
+  40% {
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    animation-timing-function: ease-out;
+  }
+
+  50% {
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    transform: perspective(400px) scale3d(3, 3, 3);
+    animation-timing-function: ease-in;
+  }
+
+  to {
+    transform: perspective(400px);
+    animation-timing-function: ease-in;
+  }
+}
+
+
+
+
+
+.t1-body{
+	animation:bounceInUp 1s;
+}
+
+.t1-main-table{
+	
+	
+	background-color:;
+	margin: auto;
+	margin-top: -20px;
+	width: 100%;
+}
+
+.t1-image{
+	
+	position: relative;
+	
+
+}
+
+.t1-textbackground{
+	background-color:;
+}
+
+.t1-container{
+	clear: both;
+	float: right;
+
+	background: white;
+	opacity: 1;
+	width:400px;
+
+	transition: all 0.5s ease-in;
+
+	margin-right: 110px;
+	margin-top: -65px;
+	padding: 0 20px;
+
+}
+
+.t1-container:hover .t1-sub-title{
+	padding:10px 0;
+
+}
+
+.t1-title{	
+	font-family: 'Poiret One', cursive;
+
+	font-size: 40px;
+	color: black;
+
+	/*background: -webkit-linear-gradient(#313131,#5c5c5c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.t1-sub-title{
+	font-family: garamond;
+	font-size: 12px;
+	color: #f43b1a;
+	text-align: center;
+	letter-spacing: 20px;
+	transition: all 0.4s ease-in-out;
+}
+
+
+.t1-text{
+	font-family: 'Poiret One', cursive;
+	font-size: 15px;
+	color: black;
+	letter-spacing: 1px;
+	transition: all 1s ease-in;
+}
+
+
+.t1-click{
+	margin: auto;
+	background-color: none;
+    border: 0.5px solid #f43b1a;
+    border-radius: 5px;
+
+    color: #f43b1a;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+	font-family: 'Poiret One', cursive;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 2px;
+
+}
+
+.t1-click-a {
+	text-align: center;
+	text-decoration: none;
+}
+
+.t1-click:hover{
+	background-color: #f43b1a;
+	color: white;
+	opacity: 0.6;
+}
+
+
+
+.t1-div-bookmark{
+	margin: 30px;
+	background-color: ;
+
+}
+
+
+
+
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+
+
+
+
+
+/*page1 结束*/
+.t2-body{
+	animation:bounceInUp 1s;
+}
+
+.t2-hr{
+    display: block;
+    height: 1px;
+
+    border: 0;
+    border-top: 3px solid white;
+    margin: 1em 0;
+    padding: 0; 
+
+    background: radial-gradient(#7a7a7a, white); 
+}
+
+
+.t2-old-title{
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	letter-spacing: 3px;
+
+}
+
+.t2-title{
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.t2-deco{
+	text-align: center;
+}
+
+.t2-deco-title-1{
+	font-family: 'Poiret One', cursive;
+	font-size: 10px;
+	color: #adadad;
+	letter-spacing: 10px;
+	display: inline;
+	text-align: center;
+}
+
+.t2-deco-title-2{
+	font-family: 'Poiret One', cursive;
+	font-size: 12px;
+	color: #85dcef;
+	letter-spacing: 3px;
+	display: inline;
+	text-align: center;
+}
+
+/* below here copied */
+
+.t2-container {
+    position: relative;
+    width: 100%;
+}
+
+.t2-image {
+  opacity: 1;
+  display: block;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  transition: .5s ease-in-out;
+  backface-visibility: hidden;
+}
+
+.t2-overlay {
+  transition: .5s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.t2-container:hover .t2-image {
+  opacity: 0.3;
+}
+
+.t2-container:hover .t2-overlay {
+  opacity: 1;
+}
+
+.t2-text {
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	font-size: 14px;
+	font-family:'Poiret One', cursive;
+	padding: 10px 20px;
+	letter-spacing: 2px;
+}
+
+.t2-row {
+
+}
+
+.t2-col {
+	background: #8dd1d0;
+	padding: 20px;
+	margin: 5px;
+	float: right;
+	font-family: 'Poiret One', cursive;
+	color: white;
+}
+
+/*end of copy*/
+
+.t2-words-of-pic {
+	text-align: center;
+  	font-family: 'Poiret One', cursive;
+	font-size: 15px;
+	color: black;
+	letter-spacing: 1px;
+}
+
+				/*page3 结束*/
+
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*page4 开始*/
+.t3-body{
+	animation:bounceInUp 1s;
+}
+.t3-store-nav{
+	margin: 100px 0 100px 100px;
+	
+	border: 1px solid #e6e6e6;
+	
+}
+
+.t3-store-nav-bigtext{
+	background-color: #f6f6f6;
+	font-weight: bold;
+	color: #333333;
+	padding: 3px 40px;
+
+	font-family: 'Poiret One', cursive;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 180%;
+
+	 transition: all .3s ease-in-out;
+}
+
+
+.t3-store-nav-bigtext:hover{
+	background-color: #f88976;
+	color: white;
+}
+
+
+.t3-store-nav-smalltext{
+	font-family: 'Poiret One', cursive;
+	font-size: 13px;
+	text-align: center;
+	color: #333333;
+	letter-spacing: 1px;
+	line-height: 180%;
+	transition: all .2s ease-in-out;
+}
+
+.t3-store-nav-smalltext:hover{
+	color: #aaaaaa;
+}
+
+
+
+
+
+
+
+
+.t4-body{
+	animation:bounceInUp 1s;
+}
+
+/*page4 结束*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+
+
+/*page5 开始*/
+.t5-body{
+	animation:bounceInUp 1s;
+}
+
+.t5-contact-information{
+	background-color: ;
+	width: 300px;
+
+
+	font-family: 'Poiret One', cursive;
+	font-size: 16px;
+	letter-spacing: 1px;
+	 line-height: 150%;
+
+	 margin-bottom: -5px;
+
+}
+
+.t5-title-deco{
+	font-family: 'Poiret One', cursive;
+	font-size: 13px;
+
+	letter-spacing: 5px;
+
+	padding-bottom: 40px;
+	
+	background: -webkit-linear-gradient(#f13636,#f6e7e2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.t5-title-title{
+	font-family: 'Megrim', cursive;
+	font-size: 40px;
+	color: black;
+	opacity: 0.4;
+	letter-spacing: 2px;
+
+	padding-top: 50px;
+	padding-bottom: 10px;
+
+	
+}
+
+
+.t5-icons-container{
+	padding-top: 30px;
+	padding-bottom: 20px;
+
+}
+
+
+.t5-icons{
+	float: left;
+	margin: 10px;
+
+}
+
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+/*------------*//*------------*//*------------*//*------------*/
+
+
+
+footer {
+	background-color: white;
+	padding: 30px 0 10px 0;
+	clear: both;
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+

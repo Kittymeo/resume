@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Miss+Fajardose');
+@import url('https://fonts.googleapis.com/css?family=Muli:200');
+@import url('https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Megrim');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+
+/*font-family:
+
+'Poiret One', cursive;
+'EB Garamond', serif;
+'Roboto', sans-serif;
+'Amatic SC', cursive;
+'Dancing Script', cursive;
+'Miss Fajardose', cursive;
+'Muli', sans-serif;
+'Raleway', sans-serif;
+
+
+*/
+
+body {
+	margin:0;
+
+}
+
+header {	
+	margin: 30px;
+}
+
+
+
+nav table {
+
+	float: right;
+
+}
+
+nav table tr td {
+	
+	opacity: 0.95;
+	padding: 3px 15px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+
+	font-size: 13px;
+	list-style-type: none;
+	margin: 1px 0;
+	letter-spacing: 2px;
+
+}
+
+.navigation {
+    text-transform: uppercase;
+	color: #adadad;
+	text-decoration: none;
+	transition: all 0.5s ease-in-out;
+	
+}
+
+.navigation:hover {
+	color: black;
+    font-size: 120%;
+}
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+
+.t1-name-container{
+	margin: -20px 100px 0 100px;
+	width: 500px;
+	background-color: ;
+}
+
+.t1-englishname-container{
+	text-align: center;
+}
+.t1-englishname{
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	color: black;
+	opacity: 0.8;
+	display: inline;
+	transition: all 0.4s ease-in-out;
+
+}
+
+.t1-englishname:hover{
+	font-size: 50px;
+	opacity: 1;
+	background: url(https://s-media-cache-ak0.pinimg.com/564x/10/70/20/1070203bb61709c7d97cc5f1bcaf8019.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.t1-chinesename{
+	margin:5px;
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: #adadad;
+  	opacity: 1;
+
+  	transition: all 0.4s ease-in-out;
+
+
+
+}
+
+
+.t1-name-container:hover .t1-chinesename{
+	margin: 20px 0;
+	background: -webkit-linear-gradient(#8ce0fb,#fe64e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  opacity: 0.3;
+}
+
+
+.t1-top-context {
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+
+	color: #cacaca;
+
+}
+
+.t1-top-context-hr{
+	width: 300px;
+}
+
+
+
+.t1-img1{
+	width: 550px;
+	
+	margin-top: 10px;
+
+}
+
+
+
+.t1-table-skill{
+	margin: 40px 20px;
+	width: 350px;
+	padding: 15px;
+
+	background-repeat: no-repeat;
+	border:1px solid #eeeeee;
+	border-radius: 50px;
+
+
+}
+.t1-table-skill:hover .t1-table-skill-deco{
+	padding: 10px 0;
+}
+
+
+
+.t1-table-skill-title{
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	color: #505050;
+	letter-spacing: 2px;
+	text-align: center;
+	padding: 5px;
+
+}
+
+.t1-table-skill-deco{
+	padding: 0px;
+	margin: 10px;
+	text-align: center;
+	 letter-spacing: 8px;
+
+	font-family: 'Dancing Script', cursive;
+
+	font-size: 10px;
+
+	color: #e07779;
+
+  		transition: all 0.3s ease-in;
+
+}
+
+
+.t1-table-skill-content{
+	font-family: 'Poiret One', cursive;
+	color: #808080;
+	line-height: 140%;
+	letter-spacing: 0.7px;
+
+
+}
+
+
+.t1-circle1{
+	width: 250px;
+	height: 240px;
+	border-radius: 125px;
+	margin: 100px 80px 10px 80px;
+
+		background:url(http://b223.photo.store.qq.com/psb?/V11VzAQm2VhAho/9o12cl1exPkRS8Ks4If6msK4ecEOLIBRstYP9ElzLSY!/b/dN8AAAAAAAAA&bo=LAQgAwAAAAAFACg!&rf=viewer_4);
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+
+	transition: all 0.5s ease-in-out;
+}
+
+.t1-circle2{
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	margin: 100px 80px 10px 80px;
+
+		background:url(http://b267.photo.store.qq.com/psb?/V11VzAQm2VhAho/S1q01IS8r4lxjyjdtXoHfPljrjiuCddsLWSB4ordmxA!/b/dAsBAAAAAAAA&bo=LAQgAwAAAAAFACg!&rf=viewer_4);
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+
+	transition: all 0.5s ease-in-out;
+}
+
+.t1-circle3{
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	margin: 100px 80px 10px 80px;
+
+		background:url(http://a1.qpic.cn/psb?/V11VzAQm2VhAho/4v*BEPu2PmumtFXJpsxFDNr6*Z3dDEWh3DBEP2.gKJs!/b/dAsBAAAAAAAA&bo=0AQgAwAAAAAFB9M!&rf=viewer_4);
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+
+	transition: all 0.5s ease-in-out;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.t1-circle1:hover{
+	box-shadow: 2px 5px 5px grey;
+}
+
+.t1-circle2:hover{
+	box-shadow: 2px 5px 5px grey;
+}
+
+.t1-circle3:hover{
+	box-shadow: 2px 5px 5px grey;
+}
+
+.t1-circle1:hover .t1-circle-text{
+	font-size: 40px;
+	padding-top: 140px;
+}
+
+.t1-circle2:hover .t1-circle-text{
+	font-size: 40px;
+	padding-top: 140px;
+}
+
+.t1-circle3:hover .t1-circle-text{
+	font-size: 40px;
+	padding-top: 140px;
+}
+.t1-circle-text{
+	font-size: 30px;
+	font-family: 'Poiret One', cursive;
+	text-shadow: 0 0 20px black;
+
+	letter-spacing: 2px;
+	color: white;
+	text-align: center;
+	padding-top: 150px;
+	transition: all 0.3s ease-in-out;
+
+}
+
+
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+
+.t2-title{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	color: black;
+	opacity: 0.8;
+	letter-spacing: 2px;
+	width: 100px;
+	text-align: center;
+	padding-top: 60px;
+	margin: auto;
+}
+
+.t2-2017{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #505050;
+	float: left;
+	position: absolute;
+	top:175px;
+	left:75px;
+
+}
+
+.t2-2017-dot{
+	float: left;
+	position: absolute;
+	top:180px;
+	left:45px;
+	background-color: #505050;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+}
+.t2-2006{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #505050;
+	float: left;
+	position: absolute;
+	top:495px;
+	left:75px;
+
+}
+
+.t2-2006-dot{
+	float: left;
+	position: absolute;
+	top:500px;
+	left:45px;
+	background-color: #505050;
+	width: 10px;
+	height: 10px;
+		border-radius: 5px;
+
+}
+
+
+.t2-middle-line{
+	height: 320px;
+	width: 1px;
+	background-color: #505050;
+	position: absolute;
+	top:190px;
+	left:50px;
+	float: left;
+}
+
+
+
+
+.t2-edu1-container{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	position: absolute;
+	left: 200px;
+	line-height: 35px;
+	letter-spacing: 1px;
+}
+
+
+.t2-school{
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	color: #47b4aa;
+}
+
+
+
+
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+.t3-table{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #adadad;
+	letter-spacing: 1px;
+	line-height: 35px;
+	margin: 100px;
+	transition: all 0.5s ease-in-out;
+
+}
+
+.t3-table:hover {
+	color: #505050;
+}
+
+
+.t3-year{
+	font-family: 'Poiret One', cursive;
+
+	font-size: 40px;
+
+	letter-spacing: 2px;
+	color: #a8a5d4;
+
+}
+.t3-img{
+	width: 520px;
+	border:1px solid #eeeeee;
+	display: inline;
+	font-family: 'Poiret One', cursive;
+	color: #adadad;
+	font-size: 16px;
+
+}
+
+
+.t3-img-container{
+	margin: 0 0 30px 5px;
+}
+
+
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+
+.t4-title{
+	font-family: 'Poiret One', cursive;
+
+	font-size: 40px;
+
+	letter-spacing: 2px;
+	color: #a8a5d4;
+	margin-top: 100px;
+	margin-left: 30px;
+}
+
+.t4-context{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #adadad;
+	letter-spacing: 1px;
+	line-height: 30px;
+	margin: 20px 100px 20px 100px;
+	transition: all 0.5s ease-in-out;
+
+}
+
+.t4-context:hover {
+	color: #505050;
+
+}
+.t4-img{
+	width: 300px;
+	border:1px solid #eeeeee;
+	display: inline;
+	
+}
+
+
+.t4-img-container{
+	margin: 20px
+}
+
+
+
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+
+
+
+.t5-title{
+font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	background: -webkit-linear-gradient(#8ce0fb,#fe64e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	letter-spacing: 1px;
+	line-height: 35px;
+	margin: 20px 100px 20px 100px;
+	transition: all 0.5s ease-in-out;
+}
+
+.t5-context{
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	color: #adadad;
+	letter-spacing: 1px;
+	line-height: 35px;
+	margin: 20px 100px 20px 180px;
+	transition: all 0.5s ease-in-out;
+}
+
+
+.t5-img{
+	width: 250px;
+	border:1px solid #eeeeee;
+	display: inline;
+	margin: 10px;
+	
+}
+
+
+.t5-img-container{
+	margin: 60px
+}
+
+
+
+.footer-title{
+	font-family: 'Megrim', cursive;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 10px;
+	color: #505050;
+}
+
+
+
+footer{
+	background:url(https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851_1280.jpg);
+	background-repeat: no-repeat;
+	color: #606060;
+	font-family: 'Roboto', sans-serif;
+
+	font-size: 16px;
+	padding: 20px 150px;
+
+
+
+}
+
